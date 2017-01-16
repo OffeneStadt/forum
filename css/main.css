@@ -12,6 +12,10 @@ html, body {
 
 }
 
+.navbar-default .navbar-brand {
+    color: #4A90E2;
+}
+
 
 @media (min-width: 992px){
     .os-contain-everything {
@@ -29,6 +33,10 @@ html, body {
 @media (min-width: 992px) {
     .os-logo {
         padding-top: 5em;
+    }
+
+    #start{
+        height: 100vh;
     }
 }
 
@@ -180,8 +188,17 @@ h2 {
     padding: 2em;
     font-size: 16px;
 
+
+
 }
 
+@media(min-width:992px){
+
+    .os-section {
+        height: 100vh;
+        
+    }
+}
 
 
 
