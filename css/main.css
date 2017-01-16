@@ -35,9 +35,9 @@ html, body {
         padding-top: 5em;
     }
 
-    #start{
+    /*#start{
         height: 100vh;
-    }
+    */}
 }
 
 #start {
@@ -192,13 +192,13 @@ h2 {
 
 }
 
-@media(min-width:992px){
+/*@media(min-width:992px){
 
     .os-section {
         height: 100vh;
         
     }
-}
+}*/
 
 
 
