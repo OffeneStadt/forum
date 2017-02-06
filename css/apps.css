@@ -1,0 +1,102 @@
+.apps {
+}
+
+.app-blue-border {
+    border: 2px solid #4a90e2;
+}
+.app-blue-background {
+    background-color: #4a90e2;
+}
+.app-over-blue {
+    background-color: rgba(74, 144, 226, 0.8);
+}
+
+.apps .col-md-4 {
+    
+    margin: 0;
+    padding-bottom: 3em;
+    padding-right: 3em;
+}
+
+.app {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.app-overlay {
+    /*display: inline-block;*/
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    transition: all 0.5s ease-out;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    color: white;
+    font-size: 15px;
+    padding: 0 1em;
+    line-height: 22px;
+}
+
+.app:hover .app-overlay {
+    height: 100%;
+}
+
+
+
+.app .apps-img {
+    width: 100%;
+}
+
+.app .apps-top {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0.4em 0;
+    /*background-color: blue;*/
+    background-image: url('../images/pattern.png');
+    font-weight: bold;
+    background-size: 50px;
+    z-index: 5;
+    position: relative;
+}
+
+.app .apps-bottom {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    /*background-color: blue;*/
+    padding: 0.4em 0;
+    background-image: url('../images/pattern.png');
+    background-size: 50px;
+    z-index: 5;
+    position: relative;
+
+}
+
+.apps-logo-circle {
+    position: absolute;
+    right: 3em;
+    bottom: 3em;
+    /*height: 30px;*/
+    width: 100px;
+    height: 100px;
+    transform: translate(43%, 20%);
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    z-index: 7;
+
+}
+
+.apps-logo {
+    height: 80%;
+    transform: translateY(12%);
+}
