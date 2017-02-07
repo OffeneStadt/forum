@@ -12,6 +12,36 @@
     background-color: rgba(74, 144, 226, 0.8);
 }
 
+.app-red-border {
+    border: 2px solid #931F1F;
+}
+.app-red-background {
+    background-color: #931F1F;
+}
+.app-over-red {
+    background-color: rgba(147,31,31,0.8);
+}
+
+.app-green-border {
+    border: 2px solid #0A884E;
+}
+.app-green-background {
+    background-color: #0A884E;
+}
+.app-over-green {
+    background-color: rgba(10,136,78,0.8);
+}
+.app-brown-border {
+    border: 2px solid #6F3D09;
+}
+.app-brown-background {
+    background-color: #6F3D09;
+}
+.app-over-brown {
+    background-color: rgba(111,61,9,0.8);
+}
+
+
 .apps .col-md-4 {
     
     margin: 0;
