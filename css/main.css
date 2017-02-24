@@ -103,6 +103,12 @@ footer {
     font-size: 2em;
 }
 
+.table {
+   td {
+      border-left: 1px solid #eee;
+   }
+}
+
 @media (max-width: 992px) {
     .text {
         text-align: center;
